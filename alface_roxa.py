@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Created By: name_of_the_creator 
-# Created Date: date/month/time
+# Created By: joaopedroleonel
+# Created Date: 21/08/2025
 # version ='1.0'
-""" Details about the module and for what purpose it was built for""" 
-# Imports
+"""Projeto requisito pelo professor Fabiano Dicheti""" 
+import os
+
+entrada = input("Digite o nome do arquivo: ")
+
+if entrada == "alface_roxa":
+    print("Correto.")
+else:
+    print("Erro")
